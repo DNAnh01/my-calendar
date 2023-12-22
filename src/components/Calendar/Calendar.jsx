@@ -38,7 +38,7 @@ const Calendar = ({ value, onChange }) => {
                 <Cell onClick={nextYear}>{'>>'}</Cell>
 
                 {daysOfWeek.map((day) => (
-                    <Cell key={day} className={cx('day-cell')}>
+                    <Cell key={day} className={cx('days-of-week')}>
                         {day}
                     </Cell>
                 ))}
