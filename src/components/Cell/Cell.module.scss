@@ -1,0 +1,21 @@
+.container {
+    height: 2.625rem;
+    border-bottom: 1px solid #9d9d9d;
+    border-right: 1px solid #9d9d9d;
+
+    transition: background-color 0.1s ease;
+    cursor: pointer;
+    user-select: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        background-color: #e4e4e4;
+    }
+}
+
+.active {
+    background-color: rgb(164, 206, 164);
+}
